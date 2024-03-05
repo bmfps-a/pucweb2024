@@ -1,0 +1,11 @@
+<p> Cadastro de usuario </p>
+
+    <label for="Nome">Nome</label>
+    <input id="Nome" name="Nome" type="text"
+        [formControl]="nome" />
+        
+    <label for="idade">Idade</label>
+    <input type="text" id="idade" name="idade_usuario"
+        [formControl]="idade" />
+
+    <button (click)="salvar()">Salvar</button>
